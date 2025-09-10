@@ -1,15 +1,13 @@
-# Curso de Python - Mundos 1 e 2 (Curso em Vídeo)
+# Curso de Python - Mundos 1, 2 e 3 (Curso em Vídeo)
 
-Este repositório reúne todos os exercícios que realizei durante os **Mundos 1 e 2** do Curso de Python do [Curso em Vídeo](https://www.cursoemvideo.com/).  
-Foram resolvidos **73 exercícios no total**, cobrindo lógica de programação, estruturas de controle, manipulação de dados e listas.
+Este repositório reúne todos os exercícios que realizei durante os **Mundos 1, 2 e 3** do Curso de Python do [Curso em Vídeo](https://www.cursoemvideo.com/).  
+Foram resolvidos **73 exercícios nos Mundos 1 e 2**, cobrindo lógica de programação, estruturas de controle, manipulação de dados e listas. Estou atualmente no Mundo 3.
 
 ---
 
 ## 📂 Estrutura do repositório
 
-- `python/` → exercícios dos Mundos 1 e 2  
-  *(No futuro, criarei `mundo3/` quando iniciar o Mundo 3.)*
-
+- `python/` → exercícios dos Mundos 1, 2 e 3.
 ---
 
 ## 📚 Conteúdo estudado
@@ -28,6 +26,13 @@ Foram resolvidos **73 exercícios no total**, cobrindo lógica de programação,
   - Módulos e pacotes
   - Tratamento de erros
   - Prática com problemas de lógica
+
+- **Mundo 3**
+  - Programação modular
+  - Manipulação de arquivos (leitura e escrita)
+  - Criação e organização de módulos
+  - Estrutura de projetos em Python
+  - Prática com aplicações mais completas
 
 ---
 
