@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 print('Verificação de maior e menor peso')
 
 maior = None
@@ -16,7 +15,6 @@ for c in range(1, 6):
         if peso < menor:
             menor = peso
 
-=======
 print('Verificação de maior e menor peso')
 
 maior = None
@@ -34,5 +32,4 @@ for c in range(1, 6):
         if peso < menor:
             menor = peso
 
->>>>>>> 9263dbb (Exercícios)
 print(f'O maior peso é {maior:.2f}Kg e o menor peso é {menor:.2f}Kg.')
