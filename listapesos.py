@@ -1,11 +1,18 @@
 infos = []
 pessoas = []
-leve = pesado = 0
-nome_leve = []
-nome_pesado = []
+maior = menor = 0
+nome_menor = []
+nome_maior = []
 while True:
     infos.append(str(input('Nome: ')))
     infos.append(float(input('Peso: ')))
+    if len(pessoas) == 0:
+        maior = menor = infos[1]
+    else:
+        if infos[1] > maior:
+            maior = infos[1]
+        if infos[1] < menor:
+            menor = infos[1]
     pessoas.append(infos[:])
     infos.clear()
     resposta = ' '
@@ -15,11 +22,9 @@ while True:
         break
 
 for p in pessoas:
-    if p[1] <= 70.0:
-        leve += 1
-        nome_leve.append(p[0])
-    elif p[1] >= 100.0:
-        pesado += 1
-        nome_pesado.append(p[0])
+    if p[1] <= menor:
+        nome_menor.append(p[0])
+    elif p[1] >= maior:
+        nome_maior.append(p[0])
 
-print(f'Foram cadastradas {len(pessoas)} pessoas, sendo que {leve} tem abaxo de 70kg ({nome_leve}) e {pesado} tem acima de 100kg ({nome_pesado}).')
+print(f'{len(pessoas)} pessoas foram cadastradas. O maior peso foi de {maior}kg ({nome_maior}) e o menor foi de {menor}kg ({nome_menor}).')
