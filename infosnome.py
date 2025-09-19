@@ -1,6 +1,2 @@
-<<<<<<< HEAD
 nome=input('Digite seu nome completo: ').strip()
-=======
-nome=input('Digite seu nome completo: ').strip()
->>>>>>> 9263dbb (Exercícios)
 print(f'Maiúsculas: {nome.upper()}\nMinúsculas: {nome.lower()}\nTotal de letras: {len(nome.replace(" ", "" ))}\nSeu primeiro nome é: {nome.split()[0]}\nLetras no primeiro nome: {len(nome.split()[0])}')
